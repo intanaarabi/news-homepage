@@ -9,8 +9,9 @@ function Navbar() {
             flex-row
             justify-between
             items-center
+            overflow-hidden
         ">
-            <img alt="News Page Icon" src="./images/logo.svg"></img>
+            <img alt="News Page Icon" src="./images/logo.svg" className="md:w-10 xl:w-auto"></img>
             <div className="flex-grow"></div>
             <div className="flex flex-row gap-12">
                 <a href="/" className={navbarLinkClassName}>Home</a>

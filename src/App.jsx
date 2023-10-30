@@ -1,5 +1,6 @@
 
 import './App.css'
+import Content from './components/Content'
 import Navbar from './components/Navbar'
 
 function App() {
@@ -7,11 +8,19 @@ function App() {
     <>
     <div 
       className='
-        md:mx-32
-        md:my-24
+        md:p-10
+        xl:px-20
+        2xl:px-72
+        2xl:pb-10
         min-h-screen
+        flex
+        flex-col
+        justify-center
+        gap-8
+        overflow-hidden
       '>
         <Navbar/>
+        <Content/>
     </div>
     </>
   )
