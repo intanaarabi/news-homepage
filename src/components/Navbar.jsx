@@ -9,7 +9,6 @@ function Navbar() {
             flex-row
             justify-between
             items-center
-            overflow-hidden
         ">
             <img alt="News Page Icon" src="./images/logo.svg" className="md:w-10 xl:w-auto"></img>
             <div className="flex-grow"></div>
