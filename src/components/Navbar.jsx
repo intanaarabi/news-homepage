@@ -1,4 +1,4 @@
-const navbarLinkClassName = "hover:text-red-500 transition-hover duration-300"
+const navbarLinkClassName = "hover:text-red-500 transition-hover duration-300 md:text-xs xl:text-md 2xl:text-lg"
 
 function Navbar() {
     return (
@@ -10,7 +10,7 @@ function Navbar() {
             justify-between
             items-center
         ">
-            <img alt="News Page Icon" src="./images/logo.svg" className="md:w-10 xl:w-auto"></img>
+            <img alt="News Page Icon" src="./images/logo.svg" className="md:w-8 lg:w-10 xl:w-12 2xl:w-auto"></img>
             <div className="flex-grow"></div>
             <div className="flex flex-row gap-12">
                 <a href="/" className={navbarLinkClassName}>Home</a>

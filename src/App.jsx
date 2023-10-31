@@ -8,15 +8,17 @@ function App() {
     <>
     <div 
       className='
-        md:p-10
-        xl:px-20
+        px-10
+        lg:px-32
+        xl:px-48
         2xl:px-72
-        2xl:pb-10
         min-h-screen
         flex
         flex-col
         justify-center
-        gap-8
+        gap-4
+        lg:gap-6
+        2xl:gap-8
         overflow-hidden
       '>
         <Navbar/>
