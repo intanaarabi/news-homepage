@@ -4,18 +4,18 @@ function Trending({src,alt,number,title,message}) {
             <img alt={alt} src={src} className="w-14 xl:w-16 2xl:w-20 object-cover"></img>
             <div className="flex flex-col justify-between px-4 xl:px-6 gap-2">
                 <h1 className="text-xl xl:text-2xl 2xl:text-3xl font-bold">{number}</h1>
-                <h2 className="text-[10px] xl:text-xs 2xl:text-lg font-extrabold">{title}</h2>
-                <p className="text-[10px] xl:text-xs 2xl:text-sm">{message}</p>
+                <h2 className="md:text-[10px] lg:text-[12px] xl:text-xs 2xl:text-lg font-extrabold">{title}</h2>
+                <p className="md:text-[8px] lg:text-[10px] xl:text-xs 2xl:text-sm">{message}</p>
             </div>
         </div>
     )
 }
 
 function New() {
-    const articleLinkClassName = "text-xs xl:text-md 2xl:text-xl font-bold text-white hover:text-red-100"
-    const articlePreviewClassName = "text-[10px] 2xl:text-sm font-normal text-white"
+    const articleLinkClassName = "text-xs xl:text-lg 2xl:text-xl font-bold text-white hover:text-red-100"
+    const articlePreviewClassName = "md:text-[8px] lg:text-[10px] xl:text-xs 2xl:text-sm font-normal text-white"
     return (
-        <div className="bg-slate-900 flex flex-col justify-center xl:py-4 px-6 gap-4 min-h-full">
+        <div className="bg-slate-900 flex flex-col justify-center py-4 px-6 gap-4 min-h-full">
             <h1 className="text-white xl:text-3xl 2xl:text-4xl 2xl:mb-4 font-bold ">New</h1>
             <div className="flex flex-col gap-2"> 
                 <a className={articleLinkClassName} href="/">Hydrogen VS Electric Cars</a>
@@ -47,15 +47,15 @@ function Content() {
                     <New/>
                 </div>
                 <div className="col-span-1 row-span-1">
-                    <h1 className="text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-extrabold ">The Bright Future of Web 3.0?</h1>
+                    <h1 className="text-2xl lg:text-3xl xl:text-4xl 2xl:text-6xl font-extrabold ">The Bright Future of Web 3.0?</h1>
                 </div>
                 <div className="col-span-1 row-span-1 ">
                     <div className="flex flex-col h-full justify-between">
-                        <p className="font-regular text-[10px] lg:text-xs 2xl:text-sm">
+                        <p className="font-regular md:text-[8px] lg:text-[10px] xl:text-xs 2xl:text-sm">
                             We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?
                         </p>
                         <div className="h-4 xl:h-10"></div>
-                        <button className="bg-purple-200 tracking-widest uppercase xl:px-4 py-3 md:text-[10px] xl:text-xs w-[100px] 2xl:w-[200px]">Read More</button>
+                        <button className="bg-purple-200 tracking-widest uppercase xl:px-4 md:py-2 xl:py-3 2xl:py-4 md:text-[8px] xl:text-[10px] 2xl:text-xs w-[100px] lg:w-[125px] xl:w-[150px] 2xl:w-[200px]">Read More</button>
                     </div>
                 </div>
                 <div className="col-span-1 row-span-1">
