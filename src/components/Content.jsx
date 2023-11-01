@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 function Trending({src,alt,number,title,message}) {
     return (
         <div className="flex flex-row">
@@ -9,6 +11,14 @@ function Trending({src,alt,number,title,message}) {
             </div>
         </div>
     )
+}
+
+Trending.propTypes = {
+    src: PropTypes.string.isRequired,
+    alt: PropTypes.string.isRequired,
+    number: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    message: PropTypes.string.isRequired
 }
 
 function New() {
@@ -51,7 +61,7 @@ function Content() {
                 </div>
                 <div className="col-span-1 row-span-1 ">
                     <div className="flex flex-col h-full justify-between">
-                        <p className="font-regular md:text-[8px] lg:text-[10px] xl:text-xs 2xl:text-sm">
+                        <p className="font-regular md:text-[8px] lg:text-[10px] xl:text-xs 2xl:text-base">
                             We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?
                         </p>
                         <div className="h-4 xl:h-10"></div>
