@@ -47,7 +47,7 @@ function Content() {
                     <New/>
                 </div>
                 <div className="col-span-1 row-span-1">
-                    <h1 className="text-2xl lg:text-3xl xl:text-4xl 2xl:text-6xl font-extrabold ">The Bright Future of Web 3.0?</h1>
+                    <h1 className="text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-extrabold ">The Bright Future of Web 3.0?</h1>
                 </div>
                 <div className="col-span-1 row-span-1 ">
                     <div className="flex flex-col h-full justify-between">
