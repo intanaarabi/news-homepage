@@ -1,4 +1,4 @@
-const navbarLinkClassName = "hover:text-red-500 transition-hover duration-300 md:text-xs xl:text-base 2xl:text-lg"
+const navbarLinkClassName = "hover:text-primary-soft-red transition-hover duration-300 md:text-xs xl:text-base 2xl:text-lg"
 
 function Navbar() {
     return (

@@ -20,6 +20,8 @@ function App() {
         lg:gap-6
         2xl:gap-8
         overflow-hidden
+        bg-neutral-off-white
+        text-neutral-very-dark-blue
       '>
         <Navbar/>
         <Content/>
