@@ -9,6 +9,8 @@ function App() {
     <div 
       className='
         px-10
+        md:py-0
+        py-10 
         lg:px-32
         xl:px-48
         2xl:px-72
