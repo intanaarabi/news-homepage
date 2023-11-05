@@ -31,12 +31,12 @@ function New() {
             <div className="flex flex-col gap-2"> 
                 <a className={articleLinkClassName} href="/">Hydrogen VS Electric Cars</a>
                 <p className={articlePreviewClassName} href="/">Will hydrogen-fueled cars ever catch up to EVs?</p>
-                <hr className="md:my-2 xl:my-4"></hr>
+                <hr className="my-4 md:my-2 xl:my-4"></hr>
             </div>
             <div className="flex flex-col gap-2"> 
                 <a className={articleLinkClassName} href="/">The Downsides of AI Artistry</a>
                 <p className={articlePreviewClassName} href="/">What are the possible adverse effects of on-demand AI image generation?</p>
-                <hr className="md:my-2 xl:my-4"></hr>
+                <hr className="my-4  a7a remd:my-2 xl:my-4"></hr>
             </div>
             <div className="flex flex-col gap-2 mb-5"> 
                 <a className={articleLinkClassName} href="/">Is VC Funding Drying Up?</a>
@@ -65,7 +65,7 @@ function Content() {
                                 We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?
                             </p>
                             <div className="h-4 xl:h-10"></div>
-                            <button className="bg-primary-soft-red text-neutral-off-white hover:bg-neutral-very-dark-blue transition-hover duration-300 tracking-[3px] lg:tracking-[5px] uppercase  py-4 md:py-1 xl:py-3 xl:px-4 2xl:py-4 text-sm md:text-[8px] xl:text-[10px] 2xl:text-xs w-[200px] md:w-[100px] lg:w-[125px] xl:w-[150px] 2xl:w-[200px]">Read More</button>
+                            <button className="max-w-[100%] bg-primary-soft-red text-neutral-off-white hover:bg-neutral-very-dark-blue transition-hover duration-300 tracking-[3px] lg:tracking-[5px] uppercase  py-4 md:py-1 xl:py-3 xl:px-4 2xl:py-4 text-sm md:text-[8px] xl:text-[10px] 2xl:text-xs w-[200px] md:w-[100px] lg:w-[125px] xl:w-[150px] 2xl:w-[200px]">Read More</button>
                         </div>
                     </div>
                     <div className="row-span-3 col-span-1">
