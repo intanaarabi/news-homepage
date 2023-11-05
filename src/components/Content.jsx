@@ -29,18 +29,18 @@ function New() {
         <div className="bg-neutral-very-dark-blue flex flex-col justify-center py-4 px-6 gap-4 min-h-full">
             <h1 className="text-2xl xl:text-3xl 2xl:text-4xl 2xl:mb-4 font-bold text-primary-soft-orange">New</h1>
             <div className="flex flex-col gap-2"> 
-                <a className={articleLinkClassName} href="/">Hydrogen VS Electric Cars</a>
-                <p className={articlePreviewClassName} href="/">Will hydrogen-fueled cars ever catch up to EVs?</p>
+                <a className={articleLinkClassName} href="#">Hydrogen VS Electric Cars</a>
+                <p className={articlePreviewClassName}>Will hydrogen-fueled cars ever catch up to EVs?</p>
                 <hr className="my-4 md:my-2 xl:my-4"></hr>
             </div>
             <div className="flex flex-col gap-2"> 
-                <a className={articleLinkClassName} href="/">The Downsides of AI Artistry</a>
-                <p className={articlePreviewClassName} href="/">What are the possible adverse effects of on-demand AI image generation?</p>
+                <a className={articleLinkClassName} href="#">The Downsides of AI Artistry</a>
+                <p className={articlePreviewClassName}>What are the possible adverse effects of on-demand AI image generation?</p>
                 <hr className="my-4  a7a remd:my-2 xl:my-4"></hr>
             </div>
             <div className="flex flex-col gap-2 mb-5"> 
-                <a className={articleLinkClassName} href="/">Is VC Funding Drying Up?</a>
-                <p className={articlePreviewClassName} href="/">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                <a className={articleLinkClassName} href="#">Is VC Funding Drying Up?</a>
+                <p className={articlePreviewClassName} >Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
             </div>
         </div>
     )

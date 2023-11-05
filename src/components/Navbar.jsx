@@ -38,11 +38,11 @@ function MobileNav() {
             {/* Add your navigation links/items here */}
             <nav>
               {/* Example navigation content here - customize as needed */}
-                <a href="/" className={mobileNavLink}>Home</a>
-                <a href="/" className={mobileNavLink}>New</a>
-                <a href="/" className={mobileNavLink}>Popular</a>
-                <a href="/" className={mobileNavLink}>Trending</a>
-                <a href="/" className={mobileNavLink}>Categories</a>
+                <a href="#" className={mobileNavLink}>Home</a>
+                <a href="#" className={mobileNavLink}>New</a>
+                <a href="#" className={mobileNavLink}>Popular</a>
+                <a href="#" className={mobileNavLink}>Trending</a>
+                <a href="#" className={mobileNavLink}>Categories</a>
             </nav>
           </div>
         </div>
@@ -67,11 +67,11 @@ function Navbar() {
             <div className="flex-grow"></div>
             <div className="md:block hidden">
                 <div className="flex flex-row gap-12">
-                    <a href="/" className={navbarLinkClassName}>Home</a>
-                    <a href="/" className={navbarLinkClassName}>New</a>
-                    <a href="/" className={navbarLinkClassName}>Popular</a>
-                    <a href="/" className={navbarLinkClassName}>Trending</a>
-                    <a href="/" className={navbarLinkClassName}>Categories</a>
+                    <a href="#" className={navbarLinkClassName}>Home</a>
+                    <a href="#" className={navbarLinkClassName}>New</a>
+                    <a href="#" className={navbarLinkClassName}>Popular</a>
+                    <a href="#" className={navbarLinkClassName}>Trending</a>
+                    <a href="#" className={navbarLinkClassName}>Categories</a>
                 </div>
             </div>
             <div className="md:hidden block"> 
