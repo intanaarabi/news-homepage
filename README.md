@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://intanaarabi.github.io/news-homepage/)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/news-homepage-created-with-react-tailwind-css-TV7SX3pm3l)
+- Live Site URL: [Live site](https://intanaarabi.github.io/news-homepage/)
 
 ## My process
 
